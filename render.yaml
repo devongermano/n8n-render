@@ -8,6 +8,9 @@ services:
     # dockerCommand: ./webdis.sh # optional (defaults to Dockerfile command)
     numInstances: 1
     healthCheckPath: /
+    extraRepo:
+      - repo: https://github.com/yourusername/pdf_attachments_repo.git
+        path: ./n8n-binaries
     envVars:
       - key: PGHOST
         fromDatabase:

@@ -1,0 +1,3 @@
+[submodule "n8n-binaries"]
+	path = n8n-binaries
+	url = https://github.com/devongermano/n8n-binaries.git
